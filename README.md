@@ -1,4 +1,4 @@
-# 📘 Tugas Matriks 5×5
+#  Tugas Matriks 5×5
 
 ---
 
@@ -82,7 +82,7 @@ A = | 1  2  0  0  0 |
 
 ## 6. Penyelesaian
 
-### 🔹 Determinan
+###  Determinan
 
 Karena matriks segitiga atas:
 
@@ -92,7 +92,7 @@ det(A) = 1 × 1 × 1 × 1 × 1 = 1
 
 ---
 
-### 🔹 Invers Matriks
+###  Invers Matriks
 
 Karena:
 
@@ -113,7 +113,7 @@ A⁻¹ = | 1  -2   6   -24   120 |
 
 ---
 
-### 🔹 Verifikasi
+###  Verifikasi
 
 ```
 A × A⁻¹ = I
