@@ -235,6 +235,70 @@ A + B = [2+3  5+4]
 | Pengurangan Matriks | Ordo sama | Mengurangkan elemen yang bersesuaian |
 | Pembagian Matriks | Matriks pembagi memiliki invers | Mengalikan dengan invers matriks pembagi |
 
+# Perkalian Matriks
+
+## Pengertian
+Perkalian matriks adalah operasi yang dilakukan dengan mengalikan elemen-elemen pada baris matriks pertama dengan elemen-elemen pada kolom matriks kedua, kemudian menjumlahkan hasil perkalian tersebut.
+
+## Syarat
+- Banyak kolom pada matriks pertama harus sama dengan banyak baris pada matriks kedua.
+- Jika matriks A berordo m × n dan matriks B berordo n × p, maka hasil perkalian AB berordo m × p.
+
+## Rumus
+
+Jika
+
+A = [aᵢⱼ]
+
+dan
+
+B = [bᵢⱼ]
+
+maka hasil perkalian matriks C = AB diperoleh dengan:
+
+cᵢⱼ = aᵢ₁b₁ⱼ + aᵢ₂b₂ⱼ + ... + aᵢₙbₙⱼ
+
+## Contoh
+
+Diketahui
+
+A = [1  2]  
+  [3  4]
+
+B = [5  6]  
+  [7  8]
+
+Maka
+
+AB = [1×5 + 2×7      1×6 + 2×8]  
+    [3×5 + 4×7      3×6 + 4×8]
+
+= [19  22]  
+ [43  50]
+
+## Sifat-Sifat Perkalian Matriks
+
+### 1. Sifat Asosiatif
+
+(AB)C = A(BC)
+
+### 2. Sifat Distributif
+
+A(B + C) = AB + AC
+
+(A + B)C = AC + BC
+
+### 3. Sifat Tidak Komutatif
+
+AB ≠ BA
+
+Artinya, hasil perkalian A dengan B belum tentu sama dengan hasil perkalian B dengan A.
+
+## Kesimpulan
+- Perkalian matriks dilakukan dengan mengalikan baris pada matriks pertama dengan kolom pada matriks kedua.
+- Banyak kolom matriks pertama harus sama dengan banyak baris matriks kedua.
+- Hasil perkalian matriks tidak selalu bersifat komutatif, sehingga AB belum tentu sama dengan BA.
+
 ## Catatan
 - Penjumlahan dan pengurangan hanya dapat dilakukan pada matriks yang berordo sama.
 - Pembagian matriks dilakukan melalui invers matriks.
