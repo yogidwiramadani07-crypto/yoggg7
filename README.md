@@ -143,6 +143,103 @@ I = | 1 0 0 0 0 |
 
 ---
 
+## Pengurangan Matriks
+
+### Pengertian
+Pengurangan matriks dilakukan dengan mengurangkan elemen-elemen yang bersesuaian dari dua matriks yang memiliki ordo yang sama.
+
+### Syarat
+- Kedua matriks harus memiliki ukuran yang sama.
+
+### Rumus
+A − B = [aᵢⱼ − bᵢⱼ]
+
+### Contoh
+
+A = [5  7]  
+  [8  4]
+
+B = [2  3]  
+  [1  6]
+
+Maka,
+
+A − B = [5−2  7−3]  
+    [8−1  4−6]
+
+= [3  4]  
+ [7 -2]
+
+---
+
+## Pembagian Matriks
+
+### Pengertian
+Pembagian matriks dilakukan dengan mengalikan matriks pertama dengan invers dari matriks kedua.
+
+### Rumus
+A ÷ B = A × B⁻¹
+
+### Syarat
+- Matriks pembagi harus memiliki invers.
+- Determinan matriks pembagi tidak sama dengan nol.
+
+### Contoh
+
+A = [4  2]  
+  [6  8]
+
+B = [1  2]  
+  [3  4]
+
+Maka,
+
+A ÷ B = A × B⁻¹
+
+---
+
+## Penjumlahan Matriks
+
+### Pengertian
+Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian dari dua matriks yang memiliki ordo sama.
+
+### Syarat
+- Kedua matriks harus memiliki ukuran yang sama.
+
+### Rumus
+A + B = [aᵢⱼ + bᵢⱼ]
+
+### Contoh
+
+A = [2  5]  
+  [7  1]
+
+B = [3  4]  
+  [6  8]
+
+Maka,
+
+A + B = [2+3  5+4]  
+    [7+6  1+8]
+
+= [5  9]  
+ [13  9]
+
+---
+
+# Kesimpulan
+
+| Operasi | Syarat | Cara Perhitungan |
+|----------|---------|-----------------|
+| Penjumlahan Matriks | Ordo sama | Menjumlahkan elemen yang bersesuaian |
+| Pengurangan Matriks | Ordo sama | Mengurangkan elemen yang bersesuaian |
+| Pembagian Matriks | Matriks pembagi memiliki invers | Mengalikan dengan invers matriks pembagi |
+
+## Catatan
+- Penjumlahan dan pengurangan hanya dapat dilakukan pada matriks yang berordo sama.
+- Pembagian matriks dilakukan melalui invers matriks.
+- Tidak semua matriks memiliki invers.
+
 ## 8. Catatan
 
 Perhitungan matriks 5×5 secara manual cukup panjang, sehingga biasanya digunakan bantuan software seperti Python atau MATLAB. Namun, pemahaman konsep tetap penting.
